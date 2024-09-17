@@ -68,5 +68,5 @@ relatorio_ocupacao_wide <- relatorio_ocupacao %>%
   arrange(factor(`Unidade Funcional`, levels = paste0("C", 1:15))) #ordenar de c1 a c15
   
 #exibir relatorio
-print(relatorio_ocupacao)
+print(relatorio_ocupacao_wide)
 ```
